@@ -1,0 +1,38 @@
+.dashboard-container {
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+  }
+  
+  .card-title {
+    color: #4f5d73;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+  }
+  
+  .widget-value {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  /* Animation for widgets */
+  .card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Custom styles for charts */
+  canvas {
+    max-width: 100%;
+    height: auto !important;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .dashboard-container {
+      padding: 1rem;
+    }
+  }
